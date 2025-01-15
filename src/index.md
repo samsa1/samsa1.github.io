@@ -42,7 +42,7 @@ related to the OCaml compiler and working towars
 "authors": "Samuel Vivien",
 "venue": "30th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)",
 "year": "2022",
-"url": "https://hal.science/hal-03541726v1",
+"url": "https://hal.science/hal-03541726v1"
 ```
 
 ## Drafts
