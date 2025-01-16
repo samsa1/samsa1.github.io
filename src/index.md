@@ -6,11 +6,11 @@ description-meta: PhD student in PL
 og-url: https://samsa1.github.io
 location: Cambium - INRIA Paris - France
 email: samuel.vivien@inria.fr
-picture: img/profile.png
+picture: img/vivien.jpg
 picture-round: false
 side-by-side: true
 pronouns: He/Him/They/Them
-og-picture: https://samsa1.github.io/img/profile.png
+og-picture: https://samsa1.github.io/img/vivien.jpg
 orcid: 0000-0003-4224-6132
 dblp: https://dblp.org/pid/300/9708.html
 scholar: https://scholar.google.co.uk/citations?user=Qf9DN_gAAAAJ
@@ -22,7 +22,7 @@ footer: >-
 ---
 
 I am a PhD student, working on Programming Languages. My current work is
-related to the OCaml compiler and working towars
+related to the OCaml compiler and working towards
 [modular implicits](https://www.cl.cam.ac.uk/~jdy22/papers/modular-implicits.pdf).
 
 # Publications
@@ -34,7 +34,7 @@ related to the OCaml compiler and working towars
 "authors": "Hrutvik Kanabar, Samuel Vivien, Oskar Abrahamsson, Magnus O Myreen, Michael Norrish, Johannes Åman Pohjola, Riccardo Zanetti",
 "venue": "PLDI",
 "year": "2023",
-"url": "[https://basicpage.github.io](https://dl.acm.org/doi/abs/10.1145/3591259)"
+"url": "https://dl.acm.org/doi/abs/10.1145/3591259"
 ```
 
 ``` json {.paper}
@@ -64,6 +64,29 @@ related to the OCaml compiler and working towars
   "url": "https://icfp24.sigplan.org/details/ocaml-2024-papers/1/On-the-design-and-implementation-of-Modular-Explicits"
 }
 ```
+
+# Software
+
+## [PureCake](https://github.com/CakeML/pure)
+
+PureCake is a verified compiler for a Haskell-like language. My contribution to
+this project was the formalisation and implementation of demands analysis.
+
+For more details see the related section in
+[PureCake: A Verified Compiler for a Lazy Functional Language](https://dl.acm.org/doi/abs/10.1145/3591259).
+
+## [OCaml](https://github.com/ocaml/ocaml)
+
+I've started working on the OCaml compiler in March 2024. Since then I worked on :
+
+
+- [#13275](https://github.com/ocaml/ocaml/pull/13275) modular explicits (not merged yet)
+- a few bug fix [#13053](https://github.com/ocaml/ocaml/pull/13053) and refactoring
+PRs [#13113](https://github.com/ocaml/ocaml/pull/13113),
+[#13681](https://github.com/ocaml/ocaml/pull/13681),
+[#13682](https://github.com/ocaml/ocaml/pull/13682),
+[#13683](https://github.com/ocaml/ocaml/pull/13683),
+[#13684](https://github.com/ocaml/ocaml/pull/13684).
 
 # Teaching
 
