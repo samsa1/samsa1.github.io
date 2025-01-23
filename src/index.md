@@ -57,6 +57,19 @@ related to the OCaml compiler and working towards
 
 ``` json {.papers}
 {
+  "title": "Tracking which types are principally known in OCaml.",
+  "authors" : "Samuel Vivien",
+  "venue": "PETITS",
+  "year": "2025",
+  "url" : "https://www.irif.fr/~scherer/events/petits-2025/announce.html",
+  "files": [
+    { "text": "Slides", "type" : "pdf", "src" : "files/petits25.pdf" }
+  ]
+}
+```
+
+``` json {.papers}
+{
   "title": "On the design and implementation of Modular Explicits",
   "authors": "Samuel Vivien, Didier Rémy",
   "venue": "OCaml@ICFP'24",
@@ -66,14 +79,6 @@ related to the OCaml compiler and working towards
 ```
 
 # Software
-
-## [PureCake](https://github.com/CakeML/pure)
-
-PureCake is a verified compiler for a Haskell-like language. My contribution to
-this project was the formalisation and implementation of demands analysis.
-
-For more details see the related section in
-[PureCake: A Verified Compiler for a Lazy Functional Language](https://dl.acm.org/doi/abs/10.1145/3591259).
 
 ## [OCaml](https://github.com/ocaml/ocaml)
 
@@ -87,6 +92,14 @@ PRs [#13113](https://github.com/ocaml/ocaml/pull/13113),
 [#13682](https://github.com/ocaml/ocaml/pull/13682),
 [#13683](https://github.com/ocaml/ocaml/pull/13683),
 [#13684](https://github.com/ocaml/ocaml/pull/13684).
+
+## [PureCake](https://github.com/CakeML/pure)
+
+PureCake is a verified compiler for a Haskell-like language. My contribution to
+this project was the formalisation and implementation of demands analysis.
+
+For more details see the related section in
+[PureCake: A Verified Compiler for a Lazy Functional Language](https://dl.acm.org/doi/abs/10.1145/3591259).
 
 # Teaching
 
